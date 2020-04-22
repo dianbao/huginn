@@ -38,6 +38,6 @@ COPY ["docker/multi-process/scripts/bootstrap.sh", \
       "docker/scripts/setup_env", "/scripts/"]
 CMD ["/scripts/init"]
 
-USER 1001
+USER 0
 
 VOLUME /var/lib/mysql
